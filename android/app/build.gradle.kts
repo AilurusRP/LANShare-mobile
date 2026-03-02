@@ -15,7 +15,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.ailurusrp.lanworker_mobile"
+    namespace = "io.github.ailurusrp.lanshare_mobile"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -30,14 +30,14 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.ailurusrp.lanworker_mobile"
+        applicationId = "io.github.ailurusrp.lanshare_mobile"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-        resValue("string","app_name", "LANWorker")
+        resValue("string","app_name", "LANShare")
     }
 
     signingConfigs {
@@ -52,7 +52,7 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix = ".debug"
-            resValue("string","app_name", "LANWorker Debug")
+            resValue("string","app_name", "LANShare Debug")
         }
 
         release {

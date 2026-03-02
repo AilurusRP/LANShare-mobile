@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:lanworker_mobile/API/send_msg.dart';
-import 'package:lanworker_mobile/UI/pages/scan_page.dart';
-import 'package:lanworker_mobile/UI/widgets/msg_editor.dart';
-import 'package:lanworker_mobile/UI/widgets/msg_list.dart';
-import 'package:lanworker_mobile/utils/extended_sse_client.dart';
+import 'package:lanshare_mobile/API/send_msg.dart';
+import 'package:lanshare_mobile/UI/pages/scan_page.dart';
+import 'package:lanshare_mobile/UI/widgets/msg_editor.dart';
+import 'package:lanshare_mobile/UI/widgets/msg_list.dart';
+import 'package:lanshare_mobile/utils/extended_sse_client.dart';
 
 import '../API/VO/msg_item_data.dart';
 
@@ -54,7 +54,7 @@ class _ChatPageState extends State<ChatPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("LANWorker")),
+      appBar: AppBar(title: const Text("LANShare")),
       body: Column(
         children: [
           MsgList(_msgListData, controller: _msgListController),

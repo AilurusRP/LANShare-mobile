@@ -1,4 +1,4 @@
-package com.ailurusrp.lanworker_mobile
+package io.github.ailurusrp.lanshare_mobile
 
 import io.flutter.embedding.android.FlutterActivity
 

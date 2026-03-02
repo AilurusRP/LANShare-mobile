@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lanworker_mobile/API/VO/msg_item_data.dart';
+import 'package:lanshare_mobile/API/VO/msg_item_data.dart';
 
 class MsgItem extends StatelessWidget {
   MsgItemData data;
