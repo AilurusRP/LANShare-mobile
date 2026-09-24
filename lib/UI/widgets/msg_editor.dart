@@ -34,6 +34,9 @@ class _MsgEditorState extends State<MsgEditor> {
                     child: TextField(
                       decoration: const InputDecoration(
                         border: InputBorder.none,
+                        constraints: BoxConstraints(
+                          maxHeight: 150,
+                        ),
                       ),
                       maxLines: null,
                       controller: _controller,
